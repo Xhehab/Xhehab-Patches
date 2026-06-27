@@ -1,0 +1,32 @@
+{
+  "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
+  "version": "1.0.0-trainwise",
+  "patches": [
+    {
+      "name": "Unlock Premium",
+      "description": "Unlocks all Premium features in TrainWise by spoofing the RevenueCat CustomerInfo response.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.trainwiseapp.app",
+          "name": "TrainWise - Workout & Fitness Coach",
+          "description": null,
+          "apkFileType": "XAPK",
+          "appIconColor": "#00C853",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.4.10",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    }
+  ]
+}
