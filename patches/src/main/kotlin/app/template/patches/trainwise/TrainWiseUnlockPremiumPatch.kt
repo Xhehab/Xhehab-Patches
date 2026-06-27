@@ -9,7 +9,7 @@ import com.android.tools.smali.dexlib2.iface.instruction.OneRegisterInstruction
 @Suppress("unused")
 val trainwiseUnlockPremiumPatch = bytecodePatch(
     name = "Unlock Premium",
-    description = "Unlocks all Premium features in TrainWise by spoofing the RevenueCat CustomerInfo response.",
+    description = "Unlock all Paid features",
     default = true
 ) {
     compatibleWith(TRAINWISE_COMPATIBILITY)

@@ -4,7 +4,7 @@
   "patches": [
     {
       "name": "Unlock Premium",
-      "description": "Unlocks all Premium features in TrainWise by spoofing the RevenueCat CustomerInfo response.",
+      "description": "Unlock all Paid features",
       "default": true,
       "dependencies": [],
       "compatiblePackages": [
