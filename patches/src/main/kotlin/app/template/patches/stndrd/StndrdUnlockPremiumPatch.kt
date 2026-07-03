@@ -9,7 +9,7 @@ import com.android.tools.smali.dexlib2.iface.instruction.OneRegisterInstruction
 @Suppress("unused")
 val stndrdUnlockPremiumPatch = bytecodePatch(
     name = "Unlock STNDRD Premium",
-    description = "Unlock STNDRD subscription entitlements for local testing.",
+    description = "Unlock all Paid features",
     default = true
 ) {
     compatibleWith(STNDRD_COMPATIBILITY)

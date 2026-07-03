@@ -1,10 +1,10 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "patches": [
     {
       "name": "Unlock FST-7 Subscription",
-      "description": "Suppress the FST-7 paywall and unlock subscription state for local testing.",
+      "description": "Unlock all Paid features",
       "default": true,
       "dependencies": [
         "RawResourcePatch"
@@ -58,7 +58,7 @@
     },
     {
       "name": "Unlock STNDRD Premium",
-      "description": "Unlock STNDRD subscription entitlements for local testing.",
+      "description": "Unlock all Paid features",
       "default": true,
       "dependencies": [],
       "compatiblePackages": [

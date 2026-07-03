@@ -42,7 +42,7 @@ private val fst7SuppressPaywallResourcePatch = rawResourcePatch {
 @Suppress("unused")
 val fst7UnlockSubscriptionPatch = bytecodePatch(
     name = "Unlock FST-7 Subscription",
-    description = "Suppress the FST-7 paywall and unlock subscription state for local testing.",
+    description = "Unlock all Paid features",
     default = true
 ) {
     compatibleWith(FST7_COMPATIBILITY)
