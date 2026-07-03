@@ -4,9 +4,11 @@
   "patches": [
     {
       "name": "Unlock FST-7 Subscription",
-      "description": "Unlock FST-7 subscription state for local testing.",
+      "description": "Suppress the FST-7 paywall and unlock subscription state for local testing.",
       "default": true,
-      "dependencies": [],
+      "dependencies": [
+        "RawResourcePatch"
+      ],
       "compatiblePackages": [
         {
           "packageName": "com.influencers.fst7",
