@@ -4,6 +4,12 @@ Custom Morphe patches by Xhehab.
 
 ## Patches
 
+- FST-7 `4.0.1`
+  - Unlock FST-7 Subscription
+
+- STNDRD - Workout & Fitness Plans `4.1.43`
+  - Unlock STNDRD Premium
+
 - TrainWise - Workout & Fitness Coach `1.4.10`
   - Unlock Premium
 
@@ -26,13 +32,13 @@ https://github.com/Xhehab/Xhehab-Patches
 The generated patch bundle is written to:
 
 ```text
-patches/build/libs/patches-1.0.0-trainwise.mpp
+patches/build/libs/patches-1.0.0.mpp
 ```
 
 The tracked remote-downloadable bundle is stored in:
 
 ```text
-releases/patches-1.0.0-trainwise.mpp
+releases/patches-1.0.0.mpp
 ```
 
 ## License

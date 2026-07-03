@@ -1,7 +1,33 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.0.0-trainwise",
+  "version": "1.0.0",
   "patches": [
+    {
+      "name": "Unlock FST-7 Subscription",
+      "description": "Unlock FST-7 subscription state for local testing.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.influencers.fst7",
+          "name": "FST-7",
+          "description": null,
+          "apkFileType": "APKS",
+          "appIconColor": "#D7262E",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "4.0.1",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
     {
       "name": "Unlock Premium",
       "description": "Unlock all Paid features",
@@ -18,6 +44,32 @@
           "targets": [
             {
               "version": "1.4.10",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Unlock STNDRD Premium",
+      "description": "Unlock STNDRD subscription entitlements for local testing.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "uni.cbum",
+          "name": "STNDRD - Workout & Fitness Plans",
+          "description": null,
+          "apkFileType": "XAPK",
+          "appIconColor": "#111111",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "4.1.43",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,

@@ -13,4 +13,22 @@ object Constants {
         appIconColor = 0x00C853,
         targets = listOf(AppTarget(version = "1.4.10"))
     )
+
+    // STNDRD — Workout & Fitness Plans
+    val STNDRD_COMPATIBILITY = Compatibility(
+        name = "STNDRD - Workout & Fitness Plans",
+        packageName = "uni.cbum",
+        apkFileType = ApkFileType.XAPK,
+        appIconColor = 0x111111,
+        targets = listOf(AppTarget(version = "4.1.43"))
+    )
+
+    // FST-7
+    val FST7_COMPATIBILITY = Compatibility(
+        name = "FST-7",
+        packageName = "com.influencers.fst7",
+        apkFileType = ApkFileType.APKS,
+        appIconColor = 0xD7262E,
+        targets = listOf(AppTarget(version = "4.0.1"))
+    )
 }

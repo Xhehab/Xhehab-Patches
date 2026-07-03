@@ -3,7 +3,7 @@ group = "app.template"
 patches {
     about {
         name = "Xhehab Patches"
-        description = "TrainWise Premium Unlock + custom patches by Xhehab"
+        description = "Custom Morphe patches for STNDRD, FST-7, TrainWise, and more by Xhehab"
         source = "local"
         author = "Xhehab"
         contact = "na"
@@ -35,6 +35,7 @@ tasks {
 
         classpath = sourceSets["main"].runtimeClasspath + patchListGeneratorClasspath
         mainClass.set("util.PatchListGeneratorKt")
+        args(project.version.toString())
     }
 
     // Used by gradle-semantic-release-plugin.
