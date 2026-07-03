@@ -4,14 +4,54 @@ Custom Morphe patches by Xhehab.
 
 ## Patches
 
-- FST-7 `4.0.1`
-  - Unlock FST-7 Subscription
+<!-- PATCHES_START EXPANDED -->
+> **[v1.0.0](https://github.com/Xhehab/Xhehab-Patches/releases/tag/v1.0.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;3 patches total
+<details open>
+<summary>📦 FST-7&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
 
-- STNDRD - Workout & Fitness Plans `4.1.43`
-  - Unlock STNDRD Premium
+**🎯 Supported versions:**
 
-- TrainWise - Workout & Fitness Coach `1.4.10`
-  - Unlock Premium
+| 4.0.1 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Unlock FST-7 Subscription](#unlock-fst-7-subscription) | Suppress the FST-7 paywall and unlock subscription state for local testing. |  |
+
+</details>
+
+<details open>
+<summary>📦 TrainWise - Workout & Fitness Coach&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 1.4.10 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Unlock Premium](#unlock-premium) | Unlock all Paid features |  |
+
+</details>
+
+<details open>
+<summary>📦 STNDRD - Workout & Fitness Plans&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 4.1.43 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Unlock STNDRD Premium](#unlock-stndrd-premium) | Unlock STNDRD subscription entitlements for local testing. |  |
+
+</details>
+
+<!-- PATCHES_END -->
 
 ## Add To Morphe
 
