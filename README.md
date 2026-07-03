@@ -32,7 +32,7 @@ https://raw.githubusercontent.com/Xhehab/Xhehab-Patches/main/patches-bundle.json
 ## Build
 
 ```bash
-./gradlew :patches:generatePatchesList
+./gradlew buildAndroid
 ```
 
 The generated patch bundle is written to:
@@ -41,11 +41,9 @@ The generated patch bundle is written to:
 patches/build/libs/patches-1.0.0.mpp
 ```
 
-The tracked remote-downloadable bundle is stored in:
+Remote patch sources are published by `.github/workflows/release.yml` as GitHub Release assets.
 
-```text
-releases/patches-1.0.0.mpp
-```
+Use semantic commits such as `fix:` or `feat:` to trigger a patch release.
 
 ## License
 
