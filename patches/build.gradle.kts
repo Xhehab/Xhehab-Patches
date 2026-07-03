@@ -4,7 +4,7 @@ patches {
     about {
         name = "Xhehab Patches"
         description = "Custom Morphe patches for STNDRD, FST-7, TrainWise, and more by Xhehab"
-        source = "local"
+        source = "git@github.com:Xhehab/Xhehab-Patches.git"
         author = "Xhehab"
         contact = "na"
         website = "na"

@@ -23,6 +23,12 @@ Or manually add this repository URL as a patch source:
 
 https://github.com/Xhehab/Xhehab-Patches
 
+If Morphe cannot resolve the GitHub repository URL, add the raw bundle metadata URL directly:
+
+```text
+https://raw.githubusercontent.com/Xhehab/Xhehab-Patches/main/patches-bundle.json
+```
+
 ## Build
 
 ```bash
