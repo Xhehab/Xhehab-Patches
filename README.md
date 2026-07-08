@@ -5,7 +5,7 @@ Custom Morphe patches by Xhehab.
 ## Patches
 
 <!-- PATCHES_START EXPANDED -->
-> **[v2.0.0](https://github.com/Xhehab/Xhehab-Patches/releases/tag/v2.0.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;3 patches total
+> **[v2.0.1](https://github.com/Xhehab/Xhehab-Patches/releases/tag/v2.0.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;3 patches total
 <details open>
 <summary>📦 FST-7&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
