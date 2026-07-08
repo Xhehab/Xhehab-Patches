@@ -31,4 +31,13 @@ object Constants {
         appIconColor = 0xD7262E,
         targets = listOf(AppTarget(version = "4.0.1"))
     )
+
+    // Video Player All Format
+    val VIDEO_PLAYER_COMPATIBILITY = Compatibility(
+        name = "Video Player All Format",
+        packageName = "video.player.videoplayer",
+        apkFileType = ApkFileType.APKM,
+        appIconColor = 0x18DC14,
+        targets = listOf(AppTarget(version = "2.6.2"))
+    )
 }

@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-07-08T20:05:56",
-  "description": "## [2.0.1](https://github.com/Xhehab/Xhehab-Patches/compare/v2.0.0...v2.0.1) (2026-07-08)\n\n### 🐛 Bug Fixes\n\n* Bumped STNDRD recommended/supported version ([d54354e](https://github.com/Xhehab/Xhehab-Patches/commit/d54354e443bfa1f182ca5aff90f781f91e3d3ba3))",
-  "download_url": "https://github.com/Xhehab/Xhehab-Patches/releases/download/v2.0.1/patches-2.0.1.mpp",
+  "created_at": "2026-07-08T20:22:51",
+  "description": "## [2.0.2](https://github.com/Xhehab/Xhehab-Patches/compare/v2.0.1...v2.0.2) (2026-07-08)\n\n### ✨ New Features\n\n* add Video Player All Format premium unlock patch\n\n### 🐛 Bug Fixes\n\n* bump patch bundle version to 2.0.2",
+  "download_url": "https://github.com/Xhehab/Xhehab-Patches/releases/download/v2.0.2/patches-2.0.2.mpp",
   "signature_download_url": "",
-  "version": "2.0.1"
+  "version": "2.0.2"
 }
