@@ -20,7 +20,7 @@ object Constants {
         packageName = "uni.cbum",
         apkFileType = ApkFileType.XAPK,
         appIconColor = 0x111111,
-        targets = listOf(AppTarget(version = "4.1.43"))
+        targets = listOf(AppTarget(version = "4.1.44"))
     )
 
     // FST-7
