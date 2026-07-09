@@ -1,3 +1,9 @@
+## [3.0.8](https://github.com/Xhehab/Xhehab-Patches/compare/v3.0.7...v3.0.8) (2026-07-09)
+
+### 🐛 Bug Fixes
+
+* bypass MH Physique solver subscription gate ([a0c3d93](https://github.com/Xhehab/Xhehab-Patches/commit/a0c3d93f5a7c52101e284e642deb093e870454a1))
+
 ## [3.0.7](https://github.com/Xhehab/Xhehab-Patches/compare/v3.0.6...v3.0.7) (2026-07-09)
 
 ### 🐛 Bug Fixes
