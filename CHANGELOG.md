@@ -1,3 +1,9 @@
+## [3.0.12](https://github.com/Xhehab/Xhehab-Patches/compare/v3.0.11...v3.0.12) (2026-07-09)
+
+### 🐛 Bug Fixes
+
+* Boostcamp v2 ([c43b1cb](https://github.com/Xhehab/Xhehab-Patches/commit/c43b1cb78ad3e7b18267cc214d1c708e14fb50ca))
+
 ## [3.0.11](https://github.com/Xhehab/Xhehab-Patches/compare/v3.0.10...v3.0.11) (2026-07-09)
 
 ### 🐛 Bug Fixes
