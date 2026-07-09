@@ -27,7 +27,7 @@ val thenxUnlockPremiumPatch = bytecodePatch(
             fingerprint.match(classDefBy(fingerprint.definingClass!!)).let { match ->
                 match.classDef.replaceImplementation(
                     match.method,
-                    registerCount = 1,
+                    registerCount = 2,
                     smali = """
                     const-string v0, "$THENX_PRODUCT_ID"
                     invoke-static {v0}, Ljava/util/Collections;->singleton(Ljava/lang/Object;)Ljava/util/Set;
@@ -45,7 +45,7 @@ val thenxUnlockPremiumPatch = bytecodePatch(
             fingerprint.match(classDefBy(fingerprint.definingClass!!)).let { match ->
                 match.classDef.replaceImplementation(
                     match.method,
-                    registerCount = 2,
+                    registerCount = 3,
                     smali = """
                     const-string v0, "$THENX_ENTITLEMENT_ID"
                     const/4 v1, 0x0
@@ -65,7 +65,7 @@ val thenxUnlockPremiumPatch = bytecodePatch(
             fingerprint.match(classDefBy(fingerprint.definingClass!!)).let { match ->
                 match.classDef.replaceImplementation(
                     match.method,
-                    registerCount = 3,
+                    registerCount = 5,
                     smali = """
                     new-instance v0, Ljava/util/Date;
                     const-wide v1, $FUTURE_EXPIRATION_MILLIS
