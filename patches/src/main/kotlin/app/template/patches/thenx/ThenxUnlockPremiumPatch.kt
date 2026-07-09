@@ -1,9 +1,14 @@
 package app.template.patches.thenx
 
+import app.morphe.patcher.extensions.InstructionExtensions.instructions
+import app.morphe.patcher.extensions.InstructionExtensions.replaceInstruction
 import app.morphe.patcher.patch.bytecodePatch
 import app.template.patches.pairip.disablePairIpLicenseCheckPatch
 import app.template.patches.shared.Constants.THENX_COMPATIBILITY
 import app.template.patches.shared.replaceImplementation
+import com.android.tools.smali.dexlib2.iface.instruction.OneRegisterInstruction
+import com.android.tools.smali.dexlib2.iface.instruction.ReferenceInstruction
+import com.android.tools.smali.dexlib2.iface.reference.MethodReference
 
 private const val THENX_ENTITLEMENT_ID = "premium"
 
@@ -35,6 +40,27 @@ val thenxUnlockPremiumPatch = bytecodePatch(
                 )
             }
         }
+
+        ThenxCustomerInfoActiveCheckFingerprint
+            .match(classDefBy(ThenxCustomerInfoActiveCheckFingerprint.definingClass!!))
+            .method
+            .apply {
+                val isEmptyIndex = instructions.indexOfFirst { instruction ->
+                    instruction is ReferenceInstruction &&
+                        (instruction.reference as? MethodReference)?.let { reference ->
+                            reference.definingClass == "Ljava/util/Map;" &&
+                                reference.name == "isEmpty" &&
+                                reference.returnType == "Z"
+                        } == true
+                }
+                if (isEmptyIndex < 0) error("THENX: active entitlement empty check not found.")
+
+                val resultIndex = isEmptyIndex + 1
+                val resultRegister = (instructions[resultIndex] as? OneRegisterInstruction)?.registerA
+                    ?: error("THENX: active entitlement empty-check result register not found.")
+
+                replaceInstruction(resultIndex, "const/16 v$resultRegister, 0x0")
+            }
     }
 
 }

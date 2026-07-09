@@ -15,3 +15,10 @@ object ThenxEntitlementInfosAllFingerprint : Fingerprint(
     parameters = emptyList(),
     returnType = "Ljava/util/Map;"
 )
+
+object ThenxCustomerInfoActiveCheckFingerprint : Fingerprint(
+    definingClass = "Lve/c\$o\$a;",
+    name = "invokeSuspend",
+    parameters = listOf("Ljava/lang/Object;"),
+    returnType = "Ljava/lang/Object;"
+)
