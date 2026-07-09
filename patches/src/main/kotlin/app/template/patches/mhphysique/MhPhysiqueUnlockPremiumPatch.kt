@@ -20,6 +20,16 @@ private val mhPhysiqueUnlockResourcePatch = rawResourcePatch {
         val patchedMainJs = mainJs.readBytes()
             .replaceTextOnce(
                 path = MH_MAIN_JS_PATH,
+                search = "isWelcomePhaseDone(){return this.plan&&this.plan.welcomePhase===nt.Gp.Done}",
+                replacement = "isWelcomePhaseDone(){return this.plan&&this.plan.welcomePhase===nt.Gp.Done&&this.plan.workouts&&this.plan.workouts.length>0}"
+            )
+            .replaceTextOnce(
+                path = MH_MAIN_JS_PATH,
+                search = "getPageByWelcomePhase(){return this.auth.getAuthRole()!=ns.lP.Unknown||this.coachClaim.hasPendingClaimToken()?this.plan&&this.plan.welcomePhase!==nt.Gp.Intro?this.plan.welcomePhase===nt.Gp.Intake||this.plan.welcomePhase===nt.Gp.CoachedIntake?Dh:this.plan.welcomePhase===nt.Gp.AwaitingCoachFinalize?m0e:fl:ZY:w2}",
+                replacement = "getPageByWelcomePhase(){return this.auth.getAuthRole()!=ns.lP.Unknown||this.coachClaim.hasPendingClaimToken()?this.plan&&this.plan.welcomePhase!==nt.Gp.Intro?this.plan.welcomePhase===nt.Gp.Intake||this.plan.welcomePhase===nt.Gp.CoachedIntake||this.plan.welcomePhase===nt.Gp.Done&&(!this.plan.workouts||!this.plan.workouts.length)?Dh:this.plan.welcomePhase===nt.Gp.AwaitingCoachFinalize?m0e:fl:ZY:w2}"
+            )
+            .replaceTextOnce(
+                path = MH_MAIN_JS_PATH,
                 search = "isFullAppUnlocked(){return this.isWelcomePhaseDone()&&this.auth.getAuthRole()>=ns.lP.Paid}",
                 replacement = "isFullAppUnlocked(){return this.isWelcomePhaseDone()}"
             )
