@@ -1,3 +1,9 @@
+## [3.0.1](https://github.com/Xhehab/Xhehab-Patches/compare/v3.0.0...v3.0.1) (2026-07-09)
+
+### 🐛 Bug Fixes
+
+* expose named patch dependencies in patch list ([898cc51](https://github.com/Xhehab/Xhehab-Patches/commit/898cc51109566f4aa58bf1065d543c94cb65d427))
+
 ## [3.0.0](https://github.com/Xhehab/Xhehab-Patches/compare/v2.0.2...v3.0.0) (2026-07-09)
 
 ### ⚠ BREAKING CHANGES
