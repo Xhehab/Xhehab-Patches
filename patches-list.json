@@ -122,7 +122,7 @@
       "default": true,
       "dependencies": [
         "RawResourcePatch",
-        "BytecodePatch"
+        "Disable PairIP license check"
       ],
       "compatiblePackages": [
         {
@@ -176,7 +176,7 @@
       "description": "Unlock all Paid features",
       "default": true,
       "dependencies": [
-        "BytecodePatch"
+        "Disable PairIP license check"
       ],
       "compatiblePackages": [
         {
@@ -204,7 +204,7 @@
       "description": "Unlock all Paid features",
       "default": true,
       "dependencies": [
-        "BytecodePatch"
+        "Disable PairIP license check"
       ],
       "compatiblePackages": [
         {
@@ -258,7 +258,7 @@
       "description": "Unlock all Paid features",
       "default": true,
       "dependencies": [
-        "BytecodePatch"
+        "Disable PairIP license check"
       ],
       "compatiblePackages": [
         {
