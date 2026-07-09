@@ -1,3 +1,9 @@
+## [3.0.13](https://github.com/Xhehab/Xhehab-Patches/compare/v3.0.12...v3.0.13) (2026-07-09)
+
+### 🐛 Bug Fixes
+
+* Thenx ([5b6485d](https://github.com/Xhehab/Xhehab-Patches/commit/5b6485ddb80b3df08e49e567347d729d1134fdca))
+
 ## [3.0.12](https://github.com/Xhehab/Xhehab-Patches/compare/v3.0.11...v3.0.12) (2026-07-09)
 
 ### 🐛 Bug Fixes
