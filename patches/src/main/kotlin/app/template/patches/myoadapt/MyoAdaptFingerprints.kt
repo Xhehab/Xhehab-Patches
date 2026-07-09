@@ -29,3 +29,25 @@ internal object MyoAdaptEntitlementInfoIsActiveFingerprint : Fingerprint(
     parameters = emptyList(),
     returnType = "Z"
 )
+
+internal object MyoAdaptSubscriptionInfoIsActiveFingerprint : Fingerprint(
+    definingClass = "Lcom/revenuecat/purchases/SubscriptionInfo;",
+    name = "isActive",
+    parameters = emptyList(),
+    returnType = "Z"
+)
+
+internal object MyoAdaptCustomerInfoFactoryBuildFingerprint : Fingerprint(
+    definingClass = "Lcom/revenuecat/purchases/common/CustomerInfoFactory;",
+    name = "buildCustomerInfo",
+    returnType = "Lcom/revenuecat/purchases/CustomerInfo;"
+)
+
+internal object MyoAdaptMainApplicationOnCreateFingerprint : Fingerprint(
+    definingClass = "Lcom/myoadapt/MainApplication;",
+    name = "onCreate",
+    parameters = emptyList(),
+    returnType = "V"
+)
+
+

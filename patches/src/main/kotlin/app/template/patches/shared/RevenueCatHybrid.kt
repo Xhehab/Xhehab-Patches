@@ -20,12 +20,20 @@ internal fun revenueCatHybridCustomerInfoMapFingerprint() = Fingerprint(
     returnType = "Ljava/util/Map;"
 )
 
+/**
+ * Rewrite the hybridcommon CustomerInfo map just before it is returned to JS.
+ *
+ * Spoofs entitlements.active/all, activeSubscriptions, allPurchasedProductIdentifiers,
+ * and latestExpirationDate. Uses only v0–v9 in a controlled sequence (same pattern
+ * as the working Boostcamp inject).
+ */
 internal fun MutableMethod.injectRevenueCatHybridCustomerInfo(
     appName: String,
     primaryEntitlement: String,
     primaryProduct: String,
     entitlementIds: List<String>,
-    productIds: List<String>
+    productIds: List<String>,
+    productPlanIdentifier: String? = null
 ) {
     if (implementation == null) return
 
@@ -50,6 +58,20 @@ internal fun MutableMethod.injectRevenueCatHybridCustomerInfo(
             invoke-interface {v8, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
             """.trimIndent()
         }
+
+    val planValueSmali = if (productPlanIdentifier != null) {
+        """
+        const-string v2, "productPlanIdentifier"
+        const-string v4, "${productPlanIdentifier.smaliEscaped()}"
+        invoke-interface {v1, v2, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+        """.trimIndent()
+    } else {
+        """
+        const-string v2, "productPlanIdentifier"
+        const/4 v4, 0x0
+        invoke-interface {v1, v2, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+        """.trimIndent()
+    }
 
     addInstructions(
         returnIndex,
@@ -113,9 +135,7 @@ internal fun MutableMethod.injectRevenueCatHybridCustomerInfo(
         const-string v4, "${primaryProduct.smaliEscaped()}"
         invoke-interface {v1, v2, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-        const-string v2, "productPlanIdentifier"
-        const/4 v4, 0x0
-        invoke-interface {v1, v2, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+        $planValueSmali
 
         const-string v2, "isSandbox"
         const/4 v4, 0x0
