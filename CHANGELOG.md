@@ -1,3 +1,9 @@
+## [3.0.5](https://github.com/Xhehab/Xhehab-Patches/compare/v3.0.4...v3.0.5) (2026-07-09)
+
+### 🐛 Bug Fixes
+
+* repair new app premium patches ([102cb97](https://github.com/Xhehab/Xhehab-Patches/commit/102cb97b83a0363536fc4ba3ad8c333771d3a623))
+
 ## [3.0.4](https://github.com/Xhehab/Xhehab-Patches/compare/v3.0.3...v3.0.4) (2026-07-09)
 
 ### 🐛 Bug Fixes
