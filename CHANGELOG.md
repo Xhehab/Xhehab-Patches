@@ -1,5 +1,17 @@
 ## [3.0.0](https://github.com/Xhehab/Xhehab-Patches/compare/v2.0.2...v3.0.0) (2026-07-09)
 
+### ⚠ BREAKING CHANGES
+
+* Release v3.0.0 patch bundle.
+* add new app patches
+
+### ✨ New Features
+
+* add new app patches ([0bbfb52](https://github.com/Xhehab/Xhehab-Patches/commit/0bbfb52383618eb701a31f027cb1a1997ad28a64))
+* add new app patches ([2e2cff0](https://github.com/Xhehab/Xhehab-Patches/commit/2e2cff06343baa72b73283e2e02a616ec08a3531))
+
+## [3.0.0](https://github.com/Xhehab/Xhehab-Patches/compare/v2.0.2...v3.0.0) (2026-07-09)
+
 ### ✨ New Features
 
 * feat: add Boostcamp, Built With Science, Ganbaru Method, MH Physique, MyoAdapt, RP Hypertrophy, and THENX patch support

@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-07-08T20:31:58",
-  "description": "## [2.0.2](https://github.com/Xhehab/Xhehab-Patches/compare/v2.0.1...v2.0.2) (2026-07-08)\n\n### 🐛 Bug Fixes\n\n* add Video Player All Format patch release ([97aba76](https://github.com/Xhehab/Xhehab-Patches/commit/97aba765e019a2dba033f3a352ebeb23ab8e9793))",
-  "download_url": "https://github.com/Xhehab/Xhehab-Patches/releases/download/v2.0.2/patches-2.0.2.mpp",
+  "created_at": "2026-07-09T11:39:52",
+  "description": "## [3.0.0](https://github.com/Xhehab/Xhehab-Patches/compare/v2.0.2...v3.0.0) (2026-07-09)\n\n### ⚠ BREAKING CHANGES\n\n* Release v3.0.0 patch bundle.\n* add new app patches\n\n### ✨ New Features\n\n* add new app patches ([0bbfb52](https://github.com/Xhehab/Xhehab-Patches/commit/0bbfb52383618eb701a31f027cb1a1997ad28a64))\n* add new app patches ([2e2cff0](https://github.com/Xhehab/Xhehab-Patches/commit/2e2cff06343baa72b73283e2e02a616ec08a3531))",
+  "download_url": "https://github.com/Xhehab/Xhehab-Patches/releases/download/v3.0.0/patches-3.0.0.mpp",
   "signature_download_url": "",
-  "version": "2.0.2"
+  "version": "3.0.0"
 }
