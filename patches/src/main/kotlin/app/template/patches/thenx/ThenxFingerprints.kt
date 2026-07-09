@@ -74,3 +74,19 @@ object ThenxCustomerInfoActiveCheckFingerprint : Fingerprint(
     parameters = listOf("Ljava/lang/Object;"),
     returnType = "Ljava/lang/Object;"
 )
+
+/** MyUserCompoundModel.plan — Settings subtitle uses plan name/interval. */
+object ThenxMyUserPlanFingerprint : Fingerprint(
+    definingClass = "Lcom/sysops/thenx/data/model2023/model/compound/MyUserCompoundModel;",
+    name = "b",
+    parameters = emptyList(),
+    returnType = "Lcom/sysops/thenx/data/model2023/model/PlanApiModel;"
+)
+
+/** MyUserCompoundModel.subscription — Membership screen needs non-null sub. */
+object ThenxMyUserSubscriptionFingerprint : Fingerprint(
+    definingClass = "Lcom/sysops/thenx/data/model2023/model/compound/MyUserCompoundModel;",
+    name = "c",
+    parameters = emptyList(),
+    returnType = "Lcom/sysops/thenx/data/model2023/model/SubscriptionApiModel;"
+)
