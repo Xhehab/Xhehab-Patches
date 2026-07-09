@@ -74,3 +74,10 @@ object GanbaruViewProgramIsPurchasedThisProgramFingerprint : Fingerprint(
     parameters = listOf("Ljava/util/ArrayList;"),
     returnType = "Z"
 )
+
+object GanbaruSubscriptionTypeFromFingerprint : Fingerprint(
+    definingClass = "Lcom/ganbaru/method/ui/settings/manageSubscription/SubscriptionType\$Companion;",
+    name = "from",
+    parameters = listOf("Ljava/lang/Integer;"),
+    returnType = "Lcom/ganbaru/method/ui/settings/manageSubscription/SubscriptionType;"
+)
