@@ -1,3 +1,9 @@
+## [3.0.9](https://github.com/Xhehab/Xhehab-Patches/compare/v3.0.8...v3.0.9) (2026-07-09)
+
+### 🐛 Bug Fixes
+
+* make Ganbaru Method full member ([8acf717](https://github.com/Xhehab/Xhehab-Patches/commit/8acf7176286f360daaec55d6667206725a975b45))
+
 ## [3.0.8](https://github.com/Xhehab/Xhehab-Patches/compare/v3.0.7...v3.0.8) (2026-07-09)
 
 ### 🐛 Bug Fixes
