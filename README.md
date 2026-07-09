@@ -5,7 +5,71 @@ Custom Morphe patches by Xhehab.
 ## Patches
 
 <!-- PATCHES_START EXPANDED -->
-> **[v3.0.1](https://github.com/Xhehab/Xhehab-Patches/releases/tag/v3.0.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;12 patches total
+> **[v3.0.2](https://github.com/Xhehab/Xhehab-Patches/releases/tag/v3.0.2)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;15 patches total
+<details open>
+<summary>📦 TrainWise - Workout & Fitness Coach&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 1.4.10 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Disable PairIP license check](#disable-pairip-license-check) | Disable the PairIP client-side license check |  |
+| [Unlock Premium](#unlock-premium) | Unlock all Paid features |  |
+
+</details>
+
+<details open>
+<summary>📦 MH Physique&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 1.28.2 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Disable PairIP license check](#disable-pairip-license-check) | Disable the PairIP client-side license check |  |
+| [Unlock MH Physique Premium](#unlock-mh-physique-premium) | Unlock all Paid features |  |
+
+</details>
+
+<details open>
+<summary>📦 RP Hypertrophy&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 1.2.0 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Disable PairIP license check](#disable-pairip-license-check) | Disable the PairIP client-side license check |  |
+| [Unlock RP Hypertrophy Premium](#unlock-rp-hypertrophy-premium) | Unlock all Paid features |  |
+
+</details>
+
+<details open>
+<summary>📦 THENX&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 6.7.0 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Disable PairIP license check](#disable-pairip-license-check) | Disable the PairIP client-side license check |  |
+| [Unlock THENX Premium](#unlock-thenx-premium) | Unlock all Paid features |  |
+
+</details>
+
 <details open>
 <summary>📦 Boostcamp&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
@@ -67,21 +131,6 @@ Custom Morphe patches by Xhehab.
 </details>
 
 <details open>
-<summary>📦 MH Physique&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
-<br>
-
-**🎯 Supported versions:**
-
-| 1.28.2 |
-| :---: |
-
-| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
-|----------|----------------|-----------|
-| [Unlock MH Physique Premium](#unlock-mh-physique-premium) | Unlock all Paid features |  |
-
-</details>
-
-<details open>
 <summary>📦 MyoAdapt - Build Muscle Fast&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
 
@@ -93,36 +142,6 @@ Custom Morphe patches by Xhehab.
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
 | [Unlock MyoAdapt Premium](#unlock-myoadapt-premium) | Unlock all Paid features |  |
-
-</details>
-
-<details open>
-<summary>📦 TrainWise - Workout & Fitness Coach&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
-<br>
-
-**🎯 Supported versions:**
-
-| 1.4.10 |
-| :---: |
-
-| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
-|----------|----------------|-----------|
-| [Unlock Premium](#unlock-premium) | Unlock all Paid features |  |
-
-</details>
-
-<details open>
-<summary>📦 RP Hypertrophy&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
-<br>
-
-**🎯 Supported versions:**
-
-| 1.2.0 |
-| :---: |
-
-| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
-|----------|----------------|-----------|
-| [Unlock RP Hypertrophy Premium](#unlock-rp-hypertrophy-premium) | Unlock all Paid features |  |
 
 </details>
 
@@ -142,21 +161,6 @@ Custom Morphe patches by Xhehab.
 </details>
 
 <details open>
-<summary>📦 THENX&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
-<br>
-
-**🎯 Supported versions:**
-
-| 6.7.0 |
-| :---: |
-
-| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
-|----------|----------------|-----------|
-| [Unlock THENX Premium](#unlock-thenx-premium) | Unlock all Paid features |  |
-
-</details>
-
-<details open>
 <summary>📦 Video Player All Format&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
 
@@ -168,16 +172,6 @@ Custom Morphe patches by Xhehab.
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
 | [Unlock Video Player Premium](#unlock-video-player-premium) | Unlock all Paid features |  |
-
-</details>
-
-<details open>
-<summary>🌐 Universal&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
-<br>
-
-| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
-|----------|----------------|-----------|
-| [Disable PairIP license check](#disable-pairip-license-check) | Disable the PairIP client-side license check |  |
 
 </details>
 

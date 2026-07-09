@@ -1,3 +1,9 @@
+## [3.0.2](https://github.com/Xhehab/Xhehab-Patches/compare/v3.0.1...v3.0.2) (2026-07-09)
+
+### 🐛 Bug Fixes
+
+* make PairIP patch app-specific ([255f155](https://github.com/Xhehab/Xhehab-Patches/commit/255f155e30b1289f2136effb756f6f1bef0e3282))
+
 ## [3.0.1](https://github.com/Xhehab/Xhehab-Patches/compare/v3.0.0...v3.0.1) (2026-07-09)
 
 ### 🐛 Bug Fixes
