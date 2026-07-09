@@ -1,3 +1,10 @@
+## [3.0.4](https://github.com/Xhehab/Xhehab-Patches/compare/v3.0.3...v3.0.4) (2026-07-09)
+
+### 🐛 Bug Fixes
+
+* avoid patching THENX CustomerInfo date getters ([dc961a8](https://github.com/Xhehab/Xhehab-Patches/commit/dc961a8acbb9673e77545b2782c5289d6c9d31e1))
+* retry v3.0.4 release after runner failure ([df385ab](https://github.com/Xhehab/Xhehab-Patches/commit/df385ab3447a2f775e4d6a556628aed420ab164d))
+
 ## [3.0.3](https://github.com/Xhehab/Xhehab-Patches/compare/v3.0.2...v3.0.3) (2026-07-09)
 
 ### 🐛 Bug Fixes
