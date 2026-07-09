@@ -30,6 +30,11 @@ private val mhPhysiqueUnlockResourcePatch = rawResourcePatch {
             )
             .replaceTextOnce(
                 path = MH_MAIN_JS_PATH,
+                search = "let ae=await this.cloudFunctionsService.solveWorkoutsAsync(H);if(ae.error)throw new Error(`Can't solve workout: ${'$'}{ae.error}`);",
+                replacement = """let ae=await this.cloudFunctionsService.solveWorkoutsAsync(H).catch(ge=>({error:String(ge?.message||ge)}));if(ae.error&&String(ae.error).toLowerCase().includes("paid users only"))ae={days:[[{subSlotId:"${'$'}squat",sets:3,trainingLevel:Yn.X2.Novice,intensities:{[Yn.X2.Novice]:{[nt.CY.Initial]:65}}},{subSlotId:"${'$'}bench_press",sets:3,trainingLevel:Yn.X2.Novice,intensities:{[Yn.X2.Novice]:{[nt.CY.Initial]:65}}},{subSlotId:"${'$'}rdl",sets:3,trainingLevel:Yn.X2.Novice,intensities:{[Yn.X2.Novice]:{[nt.CY.Initial]:65}}},{subSlotId:"${'$'}chin_up",sets:3,trainingLevel:Yn.X2.Novice,intensities:{[Yn.X2.Novice]:{[nt.CY.Initial]:65}}},{subSlotId:"${'$'}ohp",sets:3,trainingLevel:Yn.X2.Novice,intensities:{[Yn.X2.Novice]:{[nt.CY.Initial]:65}}}]],trainingLevels:{${'$'}bench_press:Yn.X2.Novice,${'$'}chin_up:Yn.X2.Novice,${'$'}ohp:Yn.X2.Novice,${'$'}rdl:Yn.X2.Novice,${'$'}squat:Yn.X2.Novice},trainingVolumeWeeklyAvg:15};if(ae.error)throw new Error(`Can't solve workout: ${'$'}{ae.error}`);"""
+            )
+            .replaceTextOnce(
+                path = MH_MAIN_JS_PATH,
                 search = "isFullAppUnlocked(){return this.isWelcomePhaseDone()&&this.auth.getAuthRole()>=ns.lP.Paid}",
                 replacement = "isFullAppUnlocked(){return this.isWelcomePhaseDone()}"
             )
