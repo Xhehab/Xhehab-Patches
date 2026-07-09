@@ -5,9 +5,78 @@
     {
       "name": "Disable PairIP license check",
       "description": "Disable the PairIP client-side license check",
-      "default": false,
+      "default": true,
       "dependencies": [],
-      "compatiblePackages": null,
+      "compatiblePackages": [
+        {
+          "packageName": "com.trainwiseapp.app",
+          "name": "TrainWise - Workout & Fitness Coach",
+          "description": null,
+          "apkFileType": "XAPK",
+          "appIconColor": "#00C853",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.4.10",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "app.mhphysique.fitness",
+          "name": "MH Physique",
+          "description": null,
+          "apkFileType": "XAPK",
+          "appIconColor": "#2563EB",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.28.2",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.rp.hypertrophy",
+          "name": "RP Hypertrophy",
+          "description": null,
+          "apkFileType": "XAPK",
+          "appIconColor": "#EC0915",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.2.0",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        },
+        {
+          "packageName": "com.sysops.thenx",
+          "name": "THENX",
+          "description": null,
+          "apkFileType": "XAPK",
+          "appIconColor": "#E53935",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "6.7.0",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
       "options": []
     },
     {
