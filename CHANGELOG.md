@@ -1,3 +1,9 @@
+## [3.0.3](https://github.com/Xhehab/Xhehab-Patches/compare/v3.0.2...v3.0.3) (2026-07-09)
+
+### 🐛 Bug Fixes
+
+* prevent THENX RevenueCat verifier crash ([02eb0aa](https://github.com/Xhehab/Xhehab-Patches/commit/02eb0aaa739056977383f7bac95cdc666844d0c0))
+
 ## [3.0.2](https://github.com/Xhehab/Xhehab-Patches/compare/v3.0.1...v3.0.2) (2026-07-09)
 
 ### 🐛 Bug Fixes
