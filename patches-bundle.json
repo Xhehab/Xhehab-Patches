@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-07-09T17:33:47",
-  "description": "## [3.0.10](https://github.com/Xhehab/Xhehab-Patches/compare/v3.0.9...v3.0.10) (2026-07-09)\n\n### 🐛 Bug Fixes\n\n* show Ganbaru Method lifetime subscription ([fe7a910](https://github.com/Xhehab/Xhehab-Patches/commit/fe7a910a43824d08cc4249dc63d3cb57af6c06c0))",
-  "download_url": "https://github.com/Xhehab/Xhehab-Patches/releases/download/v3.0.10/patches-3.0.10.mpp",
+  "created_at": "2026-07-09T17:54:32",
+  "description": "## [3.0.11](https://github.com/Xhehab/Xhehab-Patches/compare/v3.0.10...v3.0.11) (2026-07-09)\n\n### 🐛 Bug Fixes\n\n* Boostcamp ([d9fab96](https://github.com/Xhehab/Xhehab-Patches/commit/d9fab96d6144ce57912622df89923f67e4ab0582))",
+  "download_url": "https://github.com/Xhehab/Xhehab-Patches/releases/download/v3.0.11/patches-3.0.11.mpp",
   "signature_download_url": "",
-  "version": "3.0.10"
+  "version": "3.0.11"
 }
