@@ -1,3 +1,10 @@
+## [3.0.0](https://github.com/Xhehab/Xhehab-Patches/compare/v2.0.2...v3.0.0) (2026-07-09)
+
+### ✨ New Features
+
+* feat: add Boostcamp, Built With Science, Ganbaru Method, MH Physique, MyoAdapt, RP Hypertrophy, and THENX patch support
+* feat: add PairIP license bypass support for MH Physique, RP Hypertrophy, THENX, and TrainWise
+
 ## [2.0.2](https://github.com/Xhehab/Xhehab-Patches/compare/v2.0.1...v2.0.2) (2026-07-08)
 
 ### 🐛 Bug Fixes
