@@ -1,3 +1,9 @@
+## [3.0.10](https://github.com/Xhehab/Xhehab-Patches/compare/v3.0.9...v3.0.10) (2026-07-09)
+
+### 🐛 Bug Fixes
+
+* show Ganbaru Method lifetime subscription ([fe7a910](https://github.com/Xhehab/Xhehab-Patches/commit/fe7a910a43824d08cc4249dc63d3cb57af6c06c0))
+
 ## [3.0.9](https://github.com/Xhehab/Xhehab-Patches/compare/v3.0.8...v3.0.9) (2026-07-09)
 
 ### 🐛 Bug Fixes
