@@ -1,3 +1,9 @@
+## [3.0.15](https://github.com/Xhehab/Xhehab-Patches/compare/v3.0.14...v3.0.15) (2026-07-09)
+
+### 🐛 Bug Fixes
+
+* MyoAdapt ([ecb0344](https://github.com/Xhehab/Xhehab-Patches/commit/ecb0344bb2dac386f601b8b0692f2371cb7d27cf))
+
 ## [3.0.14](https://github.com/Xhehab/Xhehab-Patches/compare/v3.0.13...v3.0.14) (2026-07-09)
 
 ### 🐛 Bug Fixes
