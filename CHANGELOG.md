@@ -1,3 +1,9 @@
+## [3.0.6](https://github.com/Xhehab/Xhehab-Patches/compare/v3.0.5...v3.0.6) (2026-07-09)
+
+### 🐛 Bug Fixes
+
+* correct MH Physique subscription state ([08c1ff7](https://github.com/Xhehab/Xhehab-Patches/commit/08c1ff70fcf841f03bd598ddd29f7441ac40aea4))
+
 ## [3.0.5](https://github.com/Xhehab/Xhehab-Patches/compare/v3.0.4...v3.0.5) (2026-07-09)
 
 ### 🐛 Bug Fixes

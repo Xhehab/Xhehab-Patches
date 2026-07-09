@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-07-09T16:14:29",
-  "description": "## [3.0.5](https://github.com/Xhehab/Xhehab-Patches/compare/v3.0.4...v3.0.5) (2026-07-09)\n\n### 🐛 Bug Fixes\n\n* repair new app premium patches ([102cb97](https://github.com/Xhehab/Xhehab-Patches/commit/102cb97b83a0363536fc4ba3ad8c333771d3a623))",
-  "download_url": "https://github.com/Xhehab/Xhehab-Patches/releases/download/v3.0.5/patches-3.0.5.mpp",
+  "created_at": "2026-07-09T16:45:06",
+  "description": "## [3.0.6](https://github.com/Xhehab/Xhehab-Patches/compare/v3.0.5...v3.0.6) (2026-07-09)\n\n### 🐛 Bug Fixes\n\n* correct MH Physique subscription state ([08c1ff7](https://github.com/Xhehab/Xhehab-Patches/commit/08c1ff70fcf841f03bd598ddd29f7441ac40aea4))",
+  "download_url": "https://github.com/Xhehab/Xhehab-Patches/releases/download/v3.0.6/patches-3.0.6.mpp",
   "signature_download_url": "",
-  "version": "3.0.5"
+  "version": "3.0.6"
 }
