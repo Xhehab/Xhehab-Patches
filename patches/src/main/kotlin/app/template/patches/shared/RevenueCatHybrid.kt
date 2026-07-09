@@ -9,6 +9,10 @@ import com.android.tools.smali.dexlib2.iface.instruction.OneRegisterInstruction
 private const val PURCHASE_DATE = "2026-07-09T00:00:00.000Z"
 private const val EXPIRATION_DATE = "2035-07-09T00:00:00.000Z"
 
+// 2026-07-09T00:00:00.000Z and 2035-07-09T00:00:00.000Z as epoch millis
+private const val PURCHASE_DATE_MILLIS = "0x19f442c9400L"
+private const val EXPIRATION_DATE_MILLIS = "0x1e163b3d800L"
+
 internal fun revenueCatHybridCustomerInfoMapFingerprint() = Fingerprint(
     definingClass = "Lcom/revenuecat/purchases/hybridcommon/mappers/CustomerInfoMapperKt;",
     name = "map",
@@ -79,12 +83,27 @@ internal fun MutableMethod.injectRevenueCatHybridCustomerInfo(
         const-string v4, "$PURCHASE_DATE"
         invoke-interface {v1, v2, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
+        const-string v2, "latestPurchaseDateMillis"
+        const-wide v8, $PURCHASE_DATE_MILLIS
+        invoke-static {v8, v9}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+        move-result-object v8
+        invoke-interface {v1, v2, v8}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
         const-string v2, "originalPurchaseDate"
         invoke-interface {v1, v2, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+        const-string v2, "originalPurchaseDateMillis"
+        invoke-interface {v1, v2, v8}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
         const-string v2, "expirationDate"
         const-string v4, "$EXPIRATION_DATE"
         invoke-interface {v1, v2, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+        const-string v2, "expirationDateMillis"
+        const-wide v8, $EXPIRATION_DATE_MILLIS
+        invoke-static {v8, v9}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+        move-result-object v8
+        invoke-interface {v1, v2, v8}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
         const-string v2, "store"
         const-string v4, "PLAY_STORE"
@@ -152,6 +171,12 @@ internal fun MutableMethod.injectRevenueCatHybridCustomerInfo(
         const-string v1, "latestExpirationDate"
         const-string v2, "$EXPIRATION_DATE"
         invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+        const-string v1, "latestExpirationDateMillis"
+        const-wide v8, $EXPIRATION_DATE_MILLIS
+        invoke-static {v8, v9}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+        move-result-object v8
+        invoke-interface {v0, v1, v8}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
         new-instance v8, Ljava/util/ArrayList;
         invoke-direct {v8}, Ljava/util/ArrayList;-><init>()V
