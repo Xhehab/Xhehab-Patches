@@ -1,3 +1,9 @@
+## [3.0.7](https://github.com/Xhehab/Xhehab-Patches/compare/v3.0.6...v3.0.7) (2026-07-09)
+
+### 🐛 Bug Fixes
+
+* route empty MH Physique plans to intake ([2473da4](https://github.com/Xhehab/Xhehab-Patches/commit/2473da46679f78775a5a43b26cff57f98c23f0f3))
+
 ## [3.0.6](https://github.com/Xhehab/Xhehab-Patches/compare/v3.0.5...v3.0.6) (2026-07-09)
 
 ### 🐛 Bug Fixes
