@@ -15,7 +15,7 @@ val ganbaruUnlockPremiumPatch = bytecodePatch(
     execute {
         listOf(
             GanbaruUserIsMemberFingerprint to true,
-            GanbaruUserIsLiteMemberFingerprint to true,
+            GanbaruUserIsLiteMemberFingerprint to false,
             GanbaruUserIsLifetimeMemberFingerprint to true,
             GanbaruUserIsYearlyMemberFingerprint to true,
             GanbaruUserIsAffiliateMemberFingerprint to true,
