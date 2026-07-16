@@ -103,4 +103,13 @@ object Constants {
         appIconColor = 0xE53935,
         targets = listOf(AppTarget(version = "6.7.0"))
     )
+
+    // BASE Strength AI
+    val BASE_STRENGTH_COMPATIBILITY = Compatibility(
+        name = "BASE Strength AI",
+        packageName = "com.skynetcoaching.bromleyapp",
+        apkFileType = ApkFileType.XAPK,
+        appIconColor = 0xDDFF00,
+        targets = listOf(AppTarget(version = "2.0.82"))
+    )
 }
