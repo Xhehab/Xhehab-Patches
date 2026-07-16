@@ -38,7 +38,7 @@ object Constants {
         packageName = "video.player.videoplayer",
         apkFileType = ApkFileType.APKM,
         appIconColor = 0x18DC14,
-        targets = listOf(AppTarget(version = "2.6.2"))
+        targets = listOf(AppTarget(version = "2.7.3"))
     )
 
     // Boostcamp
