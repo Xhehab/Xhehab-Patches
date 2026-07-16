@@ -112,4 +112,13 @@ object Constants {
         appIconColor = 0xDDFF00,
         targets = listOf(AppTarget(version = "2.0.82"))
     )
+
+    // JuggernautAI
+    val JUGGERNAUT_COMPATIBILITY = Compatibility(
+        name = "JuggernautAI",
+        packageName = "com.jtsstrength.juggernautai",
+        apkFileType = ApkFileType.APKS,
+        appIconColor = 0x111316,
+        targets = listOf(AppTarget(version = "2.6.6"))
+    )
 }
