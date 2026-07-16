@@ -5,7 +5,7 @@ Custom Morphe patches by Xhehab.
 ## Patches
 
 <!-- PATCHES_START EXPANDED -->
-> **[v3.1.0](https://github.com/Xhehab/Xhehab-Patches/releases/tag/v3.1.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;17 patches total
+> **[v3.2.0](https://github.com/Xhehab/Xhehab-Patches/releases/tag/v3.2.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;17 patches total
 <details open>
 <summary>📦 TrainWise - Workout & Fitness Coach&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
 <br>
@@ -86,21 +86,6 @@ Custom Morphe patches by Xhehab.
 </details>
 
 <details open>
-<summary>📦 JuggernautAI&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
-<br>
-
-**🎯 Supported versions:**
-
-| 2.6.6 |
-| :---: |
-
-| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
-|----------|----------------|-----------|
-| [Unlock JuggernautAI Premium](#unlock-juggernautai-premium) | Unlock all Paid features |  |
-
-</details>
-
-<details open>
 <summary>📦 Boostcamp&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
 
@@ -157,6 +142,21 @@ Custom Morphe patches by Xhehab.
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
 | [Unlock Ganbaru Method Premium](#unlock-ganbaru-method-premium) | Unlock all Paid features |  |
+
+</details>
+
+<details open>
+<summary>📦 JuggernautAI&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 2.6.6 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Unlock JuggernautAI Premium](#unlock-juggernautai-premium) | Unlock all Paid features |  |
 
 </details>
 

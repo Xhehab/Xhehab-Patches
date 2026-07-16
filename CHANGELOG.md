@@ -1,3 +1,9 @@
+## [3.2.0](https://github.com/Xhehab/Xhehab-Patches/compare/v3.1.0...v3.2.0) (2026-07-16)
+
+### ✨ New Features
+
+* Add JuggernautAI compatibility and unlock premium patch ([c496bac](https://github.com/Xhehab/Xhehab-Patches/commit/c496bac9b239c9f64a64f6ca022bdb60f393416c))
+
 ## [3.1.0](https://github.com/Xhehab/Xhehab-Patches/compare/v3.0.15...v3.1.0) (2026-07-16)
 
 ### ✨ New Features

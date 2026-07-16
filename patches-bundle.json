@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-07-16T18:59:29",
-  "description": "## [3.1.0](https://github.com/Xhehab/Xhehab-Patches/compare/v3.0.15...v3.1.0) (2026-07-16)\n\n### ✨ New Features\n\n* Add BASE Strength AI compatibility and unlock premium patch ([2dd62d6](https://github.com/Xhehab/Xhehab-Patches/commit/2dd62d63ceff4c7763d3f1ab4ef8822219387163))\n* Update README to include BASE Strength AI patch and total patch count ([9a32db3](https://github.com/Xhehab/Xhehab-Patches/commit/9a32db36412ba9bf3619e39e1cd1912f7d62aac8))",
-  "download_url": "https://github.com/Xhehab/Xhehab-Patches/releases/download/v3.1.0/patches-3.1.0.mpp",
+  "created_at": "2026-07-16T19:14:39",
+  "description": "## [3.2.0](https://github.com/Xhehab/Xhehab-Patches/compare/v3.1.0...v3.2.0) (2026-07-16)\n\n### ✨ New Features\n\n* Add JuggernautAI compatibility and unlock premium patch ([c496bac](https://github.com/Xhehab/Xhehab-Patches/commit/c496bac9b239c9f64a64f6ca022bdb60f393416c))",
+  "download_url": "https://github.com/Xhehab/Xhehab-Patches/releases/download/v3.2.0/patches-3.2.0.mpp",
   "signature_download_url": "",
-  "version": "3.1.0"
+  "version": "3.2.0"
 }

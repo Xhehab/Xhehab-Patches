@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "3.1.0",
+  "version": "3.2.0",
   "patches": [
     {
       "name": "Disable PairIP license check",
@@ -203,6 +203,32 @@
           "targets": [
             {
               "version": "4.46.2",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Unlock JuggernautAI Premium",
+      "description": "Unlock all Paid features",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.jtsstrength.juggernautai",
+          "name": "JuggernautAI",
+          "description": null,
+          "apkFileType": "APKS",
+          "appIconColor": "#111316",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "2.6.6",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
