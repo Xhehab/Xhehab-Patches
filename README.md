@@ -7,7 +7,7 @@ Custom Morphe patches by Xhehab.
 <!-- PATCHES_START -->
 > **[v3.3.4](https://github.com/Xhehab/Xhehab-Patches/releases/tag/v3.3.4)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;18 patches total
 <details>
-<summary><img src=".github/assets/icons/com.trainwiseapp.app.png" width="18" align="absmiddle" alt="">&nbsp;&nbsp;TrainWise App&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<summary><img src=".github/assets/icons/com.trainwiseapp.app.png" width="18" align="absmiddle" alt="">&nbsp;&nbsp;TrainWise App&nbsp;&nbsp;•&nbsp;&nbsp;Sean Nalewanyj&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
 <br>
 
 **🎯 Supported versions:**
@@ -23,7 +23,7 @@ Custom Morphe patches by Xhehab.
 </details>
 
 <details>
-<summary><img src=".github/assets/icons/app.mhphysique.fitness.png" width="18" align="absmiddle" alt="">&nbsp;&nbsp;MH Physique&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<summary><img src=".github/assets/icons/app.mhphysique.fitness.png" width="18" align="absmiddle" alt="">&nbsp;&nbsp;MH Physique&nbsp;&nbsp;•&nbsp;&nbsp;Menno Henselmans&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
 <br>
 
 **🎯 Supported versions:**
@@ -39,7 +39,7 @@ Custom Morphe patches by Xhehab.
 </details>
 
 <details>
-<summary><img src=".github/assets/icons/com.rp.hypertrophy.png" width="18" align="absmiddle" alt="">&nbsp;&nbsp;RP Hypertrophy&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<summary><img src=".github/assets/icons/com.rp.hypertrophy.png" width="18" align="absmiddle" alt="">&nbsp;&nbsp;RP Hypertrophy&nbsp;&nbsp;•&nbsp;&nbsp;Dr. Mike Israetel&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
 <br>
 
 **🎯 Supported versions:**
@@ -55,7 +55,7 @@ Custom Morphe patches by Xhehab.
 </details>
 
 <details>
-<summary><img src=".github/assets/icons/com.sysops.thenx.png" width="18" align="absmiddle" alt="">&nbsp;&nbsp;THENX&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<summary><img src=".github/assets/icons/com.sysops.thenx.png" width="18" align="absmiddle" alt="">&nbsp;&nbsp;THENX&nbsp;&nbsp;•&nbsp;&nbsp;Chris Heria&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
 <br>
 
 **🎯 Supported versions:**
@@ -87,7 +87,7 @@ Custom Morphe patches by Xhehab.
 </details>
 
 <details>
-<summary><img src=".github/assets/icons/com.skynetcoaching.bromleyapp.jpg" width="18" align="absmiddle" alt="">&nbsp;&nbsp;BASE Strength AI&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<summary><img src=".github/assets/icons/com.skynetcoaching.bromleyapp.jpg" width="18" align="absmiddle" alt="">&nbsp;&nbsp;BASE Strength AI&nbsp;&nbsp;•&nbsp;&nbsp;Alexander Bromley&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
 
 **🎯 Supported versions:**
@@ -117,7 +117,7 @@ Custom Morphe patches by Xhehab.
 </details>
 
 <details>
-<summary><img src=".github/assets/icons/com.bws.appv2.png" width="18" align="absmiddle" alt="">&nbsp;&nbsp;Built With Science&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<summary><img src=".github/assets/icons/com.bws.appv2.png" width="18" align="absmiddle" alt="">&nbsp;&nbsp;Built With Science&nbsp;&nbsp;•&nbsp;&nbsp;Jeremy Ethier&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
 
 **🎯 Supported versions:**
@@ -132,7 +132,7 @@ Custom Morphe patches by Xhehab.
 </details>
 
 <details>
-<summary><img src=".github/assets/icons/com.influencers.fst7.png" width="18" align="absmiddle" alt="">&nbsp;&nbsp;FST-7&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<summary><img src=".github/assets/icons/com.influencers.fst7.png" width="18" align="absmiddle" alt="">&nbsp;&nbsp;FST-7&nbsp;&nbsp;•&nbsp;&nbsp;Hany Rambod&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
 
 **🎯 Supported versions:**
@@ -147,7 +147,7 @@ Custom Morphe patches by Xhehab.
 </details>
 
 <details>
-<summary><img src=".github/assets/icons/com.ganbaru.method.png" width="18" align="absmiddle" alt="">&nbsp;&nbsp;Ganbaru Method&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<summary><img src=".github/assets/icons/com.ganbaru.method.png" width="18" align="absmiddle" alt="">&nbsp;&nbsp;Ganbaru Method&nbsp;&nbsp;•&nbsp;&nbsp;Eugene Teo&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
 
 **🎯 Supported versions:**
@@ -162,7 +162,7 @@ Custom Morphe patches by Xhehab.
 </details>
 
 <details>
-<summary><img src=".github/assets/icons/com.jtsstrength.juggernautai.png" width="18" align="absmiddle" alt="">&nbsp;&nbsp;JuggernautAI&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<summary><img src=".github/assets/icons/com.jtsstrength.juggernautai.png" width="18" align="absmiddle" alt="">&nbsp;&nbsp;JuggernautAI&nbsp;&nbsp;•&nbsp;&nbsp;Chad Wesley Smith&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
 
 **🎯 Supported versions:**
@@ -177,7 +177,7 @@ Custom Morphe patches by Xhehab.
 </details>
 
 <details>
-<summary><img src=".github/assets/icons/com.myoadapt.app.android.png" width="18" align="absmiddle" alt="">&nbsp;&nbsp;MyoAdapt - Build Muscle Fast&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<summary><img src=".github/assets/icons/com.myoadapt.app.android.png" width="18" align="absmiddle" alt="">&nbsp;&nbsp;MyoAdapt - Build Muscle Fast&nbsp;&nbsp;•&nbsp;&nbsp;Dr. Milo Wolf &amp; Dr. Pak&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
 
 **🎯 Supported versions:**
@@ -192,7 +192,7 @@ Custom Morphe patches by Xhehab.
 </details>
 
 <details>
-<summary><img src=".github/assets/icons/uni.cbum.png" width="18" align="absmiddle" alt="">&nbsp;&nbsp;STNDRD - Workout & Fitness Plans&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<summary><img src=".github/assets/icons/uni.cbum.png" width="18" align="absmiddle" alt="">&nbsp;&nbsp;STNDRD - Workout & Fitness Plans&nbsp;&nbsp;•&nbsp;&nbsp;Chris Bumstead&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
 
 **🎯 Supported versions:**

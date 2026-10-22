@@ -10,6 +10,8 @@ App icons are loaded from .github/assets/icons/<package>.<ext>. If an icon is
 missing, the script tries to download it from Google Play and cache it there.
 Set NO_ICONS=1 to skip network access.
 
+App authors are loaded from .github/app-authors.json, keyed by package name.
+
 python3 generate_patches_readme.py <owner/repo> <branch> [patches-list.json] [README.md]
 """
 
@@ -19,6 +21,7 @@ import re
 import sys
 import urllib.error
 import urllib.request
+from html import escape
 from pathlib import Path
 
 
@@ -40,6 +43,11 @@ owner, repo = repo_full.split("/", 1)
 
 with open(json_path, encoding="utf-8") as f:
     data = json.load(f)
+
+try:
+    authors = json.loads(Path(".github/app-authors.json").read_text(encoding="utf-8"))
+except (OSError, ValueError):
+    authors = {}
 
 
 # Group patches by package; patches with no compatiblePackages are universal.
@@ -192,7 +200,7 @@ def versions_table(targets):
     return "\n".join(rows)
 
 
-def spoiler(label, count, targets, tbl, expanded=False, pkg=None):
+def spoiler(label, count, targets, tbl, expanded=False, pkg=None, author=None):
     """Wrap a patches table in a <details> spoiler with a versions sub-table.
     If expanded=True, the spoiler is open by default.
     """
@@ -200,8 +208,13 @@ def spoiler(label, count, targets, tbl, expanded=False, pkg=None):
     vtbl = versions_table(targets)
     versions_section = f"**🎯 Supported versions:**\n\n{vtbl}\n\n" if vtbl else ""
     tag = "<details open>" if expanded else "<details>"
+    summary_parts = [f"{icon_img(pkg)}{label}"]
+    if author:
+        summary_parts.append(escape(author, quote=False))
+    summary_parts.append(f"{count} {noun}")
+    summary = "&nbsp;&nbsp;•&nbsp;&nbsp;".join(summary_parts)
     return f"""{tag}
-<summary>{icon_img(pkg)}{label}&nbsp;&nbsp;•&nbsp;&nbsp;{count} {noun}</summary>
+<summary>{summary}</summary>
 <br>
 
 {versions_section}{tbl}
@@ -232,6 +245,7 @@ def build_content(expanded=False):
                 patches_table(patches),
                 expanded,
                 pkg,
+                authors.get(pkg),
             )
         )
         lines.append("")
