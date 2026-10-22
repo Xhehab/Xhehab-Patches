@@ -11,6 +11,7 @@ missing, the script tries to download it from Google Play and cache it there.
 Set NO_ICONS=1 to skip network access.
 
 App authors are loaded from .github/app-authors.json, keyed by package name.
+App section order is loaded from .github/app-order.json.
 
 python3 generate_patches_readme.py <owner/repo> <branch> [patches-list.json] [README.md]
 """
@@ -48,6 +49,13 @@ try:
     authors = json.loads(Path(".github/app-authors.json").read_text(encoding="utf-8"))
 except (OSError, ValueError):
     authors = {}
+
+try:
+    app_order = json.loads(Path(".github/app-order.json").read_text(encoding="utf-8"))
+    if not isinstance(app_order, list):
+        app_order = []
+except (OSError, ValueError):
+    app_order = []
 
 
 # Group patches by package; patches with no compatiblePackages are universal.
@@ -230,12 +238,16 @@ def build_content(expanded=False):
         f"{total} patches total"
     ]
 
+    ordered_pkgs = [pkg for pkg in app_order if pkg in by_pkg]
+    ordered_pkgs += [pkg for pkg in by_pkg if pkg not in app_order]
+
     if not NO_ICONS:
-        for pkg in by_pkg:
+        for pkg in ordered_pkgs:
             ensure_icon(pkg)
 
-    # One spoiler per app, in the order they appear in the JSON
-    for pkg, entry in by_pkg.items():
+    # One spoiler per app, following app-order.json
+    for pkg in ordered_pkgs:
+        entry = by_pkg[pkg]
         patches = list(entry["patches"].values())
         lines.append(
             spoiler(

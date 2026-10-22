@@ -7,6 +7,21 @@ Custom Morphe patches by Xhehab.
 <!-- PATCHES_START -->
 > **[v3.3.4](https://github.com/Xhehab/Xhehab-Patches/releases/tag/v3.3.4)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;18 patches total
 <details>
+<summary><img src=".github/assets/icons/uni.cbum.png" width="18" align="absmiddle" alt="">&nbsp;&nbsp;STNDRD - Workout & Fitness Plans&nbsp;&nbsp;•&nbsp;&nbsp;Chris Bumstead&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 4.1.44 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Unlock STNDRD Premium](#unlock-stndrd-premium) | Unlock all Paid features |  |
+
+</details>
+
+<details>
 <summary><img src=".github/assets/icons/com.trainwiseapp.app.png" width="18" align="absmiddle" alt="">&nbsp;&nbsp;TrainWise App&nbsp;&nbsp;•&nbsp;&nbsp;Sean Nalewanyj&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
 <br>
 
@@ -19,22 +34,6 @@ Custom Morphe patches by Xhehab.
 |----------|----------------|-----------|
 | [Disable PairIP license check](#disable-pairip-license-check) | Disable the PairIP client-side license check |  |
 | [Unlock Premium](#unlock-premium) | Unlock all Paid features |  |
-
-</details>
-
-<details>
-<summary><img src=".github/assets/icons/app.mhphysique.fitness.png" width="18" align="absmiddle" alt="">&nbsp;&nbsp;MH Physique&nbsp;&nbsp;•&nbsp;&nbsp;Menno Henselmans&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
-<br>
-
-**🎯 Supported versions:**
-
-| 1.28.2 |
-| :---: |
-
-| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
-|----------|----------------|-----------|
-| [Disable PairIP license check](#disable-pairip-license-check) | Disable the PairIP client-side license check |  |
-| [Unlock MH Physique Premium](#unlock-mh-physique-premium) | Unlock all Paid features |  |
 
 </details>
 
@@ -55,68 +54,6 @@ Custom Morphe patches by Xhehab.
 </details>
 
 <details>
-<summary><img src=".github/assets/icons/com.sysops.thenx.png" width="18" align="absmiddle" alt="">&nbsp;&nbsp;THENX&nbsp;&nbsp;•&nbsp;&nbsp;Chris Heria&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
-<br>
-
-**🎯 Supported versions:**
-
-| 6.7.1 |
-| :---: |
-
-| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
-|----------|----------------|-----------|
-| [Disable PairIP license check](#disable-pairip-license-check) | Disable the PairIP client-side license check |  |
-| [Unlock THENX Premium](#unlock-thenx-premium) | Unlock all Paid features |  |
-
-</details>
-
-<details>
-<summary><img src=".github/assets/icons/video.player.videoplayer.png" width="18" align="absmiddle" alt="">&nbsp;&nbsp;Video Player All Format&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
-<br>
-
-**🎯 Supported versions:**
-
-| 2.9.2 |
-| :---: |
-
-| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
-|----------|----------------|-----------|
-| [Disable Rate Dialog](#disable-rate-dialog) | Disables the rate dialog counters so it never appears. |  |
-| [Unlock Video Player Premium](#unlock-video-player-premium) | Unlock all Paid features |  |
-
-</details>
-
-<details>
-<summary><img src=".github/assets/icons/com.skynetcoaching.bromleyapp.jpg" width="18" align="absmiddle" alt="">&nbsp;&nbsp;BASE Strength AI&nbsp;&nbsp;•&nbsp;&nbsp;Alexander Bromley&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
-<br>
-
-**🎯 Supported versions:**
-
-| 2.0.82 |
-| :---: |
-
-| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
-|----------|----------------|-----------|
-| [Unlock BASE Strength Premium](#unlock-base-strength-premium) | Unlock all Paid features |  |
-
-</details>
-
-<details>
-<summary><img src=".github/assets/icons/com.bpmhealth.boostcamp.png" width="18" align="absmiddle" alt="">&nbsp;&nbsp;Boostcamp&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
-<br>
-
-**🎯 Supported versions:**
-
-| 262 |
-| :---: |
-
-| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
-|----------|----------------|-----------|
-| [Unlock Boostcamp Premium](#unlock-boostcamp-premium) | Unlock all Paid features |  |
-
-</details>
-
-<details>
 <summary><img src=".github/assets/icons/com.bws.appv2.png" width="18" align="absmiddle" alt="">&nbsp;&nbsp;Built With Science&nbsp;&nbsp;•&nbsp;&nbsp;Jeremy Ethier&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
 
@@ -128,6 +65,37 @@ Custom Morphe patches by Xhehab.
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
 | [Unlock Built With Science Premium](#unlock-built-with-science-premium) | Unlock all Paid features |  |
+
+</details>
+
+<details>
+<summary><img src=".github/assets/icons/com.myoadapt.app.android.png" width="18" align="absmiddle" alt="">&nbsp;&nbsp;MyoAdapt - Build Muscle Fast&nbsp;&nbsp;•&nbsp;&nbsp;Dr. Milo Wolf &amp; Dr. Pak&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 1.5.1 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Unlock MyoAdapt Premium](#unlock-myoadapt-premium) | Unlock all Paid features |  |
+
+</details>
+
+<details>
+<summary><img src=".github/assets/icons/app.mhphysique.fitness.png" width="18" align="absmiddle" alt="">&nbsp;&nbsp;MH Physique&nbsp;&nbsp;•&nbsp;&nbsp;Menno Henselmans&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 1.28.2 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Disable PairIP license check](#disable-pairip-license-check) | Disable the PairIP client-side license check |  |
+| [Unlock MH Physique Premium](#unlock-mh-physique-premium) | Unlock all Paid features |  |
 
 </details>
 
@@ -162,6 +130,37 @@ Custom Morphe patches by Xhehab.
 </details>
 
 <details>
+<summary><img src=".github/assets/icons/com.sysops.thenx.png" width="18" align="absmiddle" alt="">&nbsp;&nbsp;THENX&nbsp;&nbsp;•&nbsp;&nbsp;Chris Heria&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 6.7.1 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Disable PairIP license check](#disable-pairip-license-check) | Disable the PairIP client-side license check |  |
+| [Unlock THENX Premium](#unlock-thenx-premium) | Unlock all Paid features |  |
+
+</details>
+
+<details>
+<summary><img src=".github/assets/icons/com.skynetcoaching.bromleyapp.jpg" width="18" align="absmiddle" alt="">&nbsp;&nbsp;BASE Strength AI&nbsp;&nbsp;•&nbsp;&nbsp;Alexander Bromley&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 2.0.82 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Unlock BASE Strength Premium](#unlock-base-strength-premium) | Unlock all Paid features |  |
+
+</details>
+
+<details>
 <summary><img src=".github/assets/icons/com.jtsstrength.juggernautai.png" width="18" align="absmiddle" alt="">&nbsp;&nbsp;JuggernautAI&nbsp;&nbsp;•&nbsp;&nbsp;Chad Wesley Smith&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
 
@@ -177,32 +176,33 @@ Custom Morphe patches by Xhehab.
 </details>
 
 <details>
-<summary><img src=".github/assets/icons/com.myoadapt.app.android.png" width="18" align="absmiddle" alt="">&nbsp;&nbsp;MyoAdapt - Build Muscle Fast&nbsp;&nbsp;•&nbsp;&nbsp;Dr. Milo Wolf &amp; Dr. Pak&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<summary><img src=".github/assets/icons/com.bpmhealth.boostcamp.png" width="18" align="absmiddle" alt="">&nbsp;&nbsp;Boostcamp&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
 
 **🎯 Supported versions:**
 
-| 1.5.1 |
+| 262 |
 | :---: |
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
-| [Unlock MyoAdapt Premium](#unlock-myoadapt-premium) | Unlock all Paid features |  |
+| [Unlock Boostcamp Premium](#unlock-boostcamp-premium) | Unlock all Paid features |  |
 
 </details>
 
 <details>
-<summary><img src=".github/assets/icons/uni.cbum.png" width="18" align="absmiddle" alt="">&nbsp;&nbsp;STNDRD - Workout & Fitness Plans&nbsp;&nbsp;•&nbsp;&nbsp;Chris Bumstead&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<summary><img src=".github/assets/icons/video.player.videoplayer.png" width="18" align="absmiddle" alt="">&nbsp;&nbsp;Video Player All Format&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
 <br>
 
 **🎯 Supported versions:**
 
-| 4.1.44 |
+| 2.9.2 |
 | :---: |
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
-| [Unlock STNDRD Premium](#unlock-stndrd-premium) | Unlock all Paid features |  |
+| [Disable Rate Dialog](#disable-rate-dialog) | Disables the rate dialog counters so it never appears. |  |
+| [Unlock Video Player Premium](#unlock-video-player-premium) | Unlock all Paid features |  |
 
 </details>
 
