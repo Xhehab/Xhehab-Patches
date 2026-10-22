@@ -101,7 +101,7 @@ object Constants {
         packageName = "com.sysops.thenx",
         apkFileType = ApkFileType.XAPK,
         appIconColor = 0xE53935,
-        targets = listOf(AppTarget(version = "6.7.0"))
+        targets = listOf(AppTarget(version = "6.7.1"))
     )
 
     // BASE Strength AI

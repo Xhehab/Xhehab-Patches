@@ -68,7 +68,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "6.7.0",
+              "version": "6.7.1",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -393,7 +393,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "6.7.0",
+              "version": "6.7.1",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,

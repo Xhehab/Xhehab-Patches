@@ -60,7 +60,7 @@ Custom Morphe patches by Xhehab.
 
 **🎯 Supported versions:**
 
-| 6.7.0 |
+| 6.7.1 |
 | :---: |
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
