@@ -196,7 +196,7 @@ Custom Morphe patches by Xhehab.
 
 **🎯 Supported versions:**
 
-| 2.7.3 |
+| 2.9.2 |
 | :---: |
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |

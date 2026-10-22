@@ -3,14 +3,14 @@ package app.template.patches.videoplayer
 import app.morphe.patcher.Fingerprint
 
 val VideoPlayerPurchaseListContainsUnlockFingerprint = Fingerprint(
-    definingClass = "Lt62;",
+    definingClass = "Le82;",
     name = "M",
     parameters = listOf("Ljava/util/List;"),
     returnType = "Z"
 )
 
 val VideoPlayerSetAdFreeModeFingerprint = Fingerprint(
-    definingClass = "Lj51;",
+    definingClass = "Lj61;",
     name = "k",
     parameters = listOf("Z"),
     returnType = "V"
@@ -18,25 +18,25 @@ val VideoPlayerSetAdFreeModeFingerprint = Fingerprint(
 
 val VideoPlayerBillingStateGetters = listOf(
     Fingerprint(
-        definingClass = "Lt62\$b;",
+        definingClass = "Le82\$b;",
         name = "a",
-        parameters = listOf("Lt62\$b;"),
+        parameters = listOf("Le82\$b;"),
         returnType = "Z"
     ),
     Fingerprint(
-        definingClass = "Lt62\$b;",
+        definingClass = "Le82\$b;",
         name = "c",
-        parameters = listOf("Lt62\$b;"),
+        parameters = listOf("Le82\$b;"),
         returnType = "Z"
     ),
     Fingerprint(
-        definingClass = "Lt62\$b;",
+        definingClass = "Le82\$b;",
         name = "e",
         parameters = emptyList(),
         returnType = "Z"
     ),
     Fingerprint(
-        definingClass = "Lt62\$b;",
+        definingClass = "Le82\$b;",
         name = "f",
         parameters = emptyList(),
         returnType = "Z"
