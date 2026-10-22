@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-10-22T20:37:51",
-  "description": "## [3.3.1](https://github.com/Xhehab/Xhehab-Patches/compare/v3.3.0...v3.3.1) (2026-10-22)\n\n### 🚀 Updated App Support\n\n* Update TrainWise 1.5.0 and RP Hypertrophy 1.8.0 ([630d87b](https://github.com/Xhehab/Xhehab-Patches/commit/630d87b7894bd8e782c929afc0a600a7c2438a45))",
-  "download_url": "https://github.com/Xhehab/Xhehab-Patches/releases/download/v3.3.1/patches-3.3.1.mpp",
+  "created_at": "2026-10-22T20:47:56",
+  "description": "## [3.3.2](https://github.com/Xhehab/Xhehab-Patches/compare/v3.3.1...v3.3.2) (2026-10-22)\n\n### 🚀 Updated App Support\n\n* THENX 6.7.1 ([bda94c8](https://github.com/Xhehab/Xhehab-Patches/commit/bda94c862efb35be621e6d563ba63699379c7954))",
+  "download_url": "https://github.com/Xhehab/Xhehab-Patches/releases/download/v3.3.2/patches-3.3.2.mpp",
   "signature_download_url": "",
-  "version": "3.3.1"
+  "version": "3.3.2"
 }

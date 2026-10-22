@@ -1,3 +1,9 @@
+## [3.3.2](https://github.com/Xhehab/Xhehab-Patches/compare/v3.3.1...v3.3.2) (2026-10-22)
+
+### 🚀 Updated App Support
+
+* THENX 6.7.1 ([bda94c8](https://github.com/Xhehab/Xhehab-Patches/commit/bda94c862efb35be621e6d563ba63699379c7954))
+
 ## [3.3.1](https://github.com/Xhehab/Xhehab-Patches/compare/v3.3.0...v3.3.1) (2026-10-22)
 
 ### 🚀 Updated App Support
