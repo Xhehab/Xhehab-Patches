@@ -1,3 +1,9 @@
+## [3.3.1](https://github.com/Xhehab/Xhehab-Patches/compare/v3.3.0...v3.3.1) (2026-10-22)
+
+### 🚀 Updated App Support
+
+* Update TrainWise 1.5.0 and RP Hypertrophy 1.8.0 ([630d87b](https://github.com/Xhehab/Xhehab-Patches/commit/630d87b7894bd8e782c929afc0a600a7c2438a45))
+
 ## [3.3.0](https://github.com/Xhehab/Xhehab-Patches/compare/v3.2.0...v3.3.0) (2026-07-16)
 
 ### ✨ New Features

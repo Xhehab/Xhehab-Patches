@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-07-16T19:22:39",
-  "description": "## [3.3.0](https://github.com/Xhehab/Xhehab-Patches/compare/v3.2.0...v3.3.0) (2026-07-16)\n\n### ✨ New Features\n\n* Update compatibility for VideoPlayer ([75cf9ab](https://github.com/Xhehab/Xhehab-Patches/commit/75cf9abc98e81d97ca9287f31347e20e54394122))",
-  "download_url": "https://github.com/Xhehab/Xhehab-Patches/releases/download/v3.3.0/patches-3.3.0.mpp",
+  "created_at": "2026-10-22T20:37:51",
+  "description": "## [3.3.1](https://github.com/Xhehab/Xhehab-Patches/compare/v3.3.0...v3.3.1) (2026-10-22)\n\n### 🚀 Updated App Support\n\n* Update TrainWise 1.5.0 and RP Hypertrophy 1.8.0 ([630d87b](https://github.com/Xhehab/Xhehab-Patches/commit/630d87b7894bd8e782c929afc0a600a7c2438a45))",
+  "download_url": "https://github.com/Xhehab/Xhehab-Patches/releases/download/v3.3.1/patches-3.3.1.mpp",
   "signature_download_url": "",
-  "version": "3.3.0"
+  "version": "3.3.1"
 }
