@@ -6,13 +6,19 @@ and injects it between <!-- PATCHES_START --> / <!-- PATCHES_END --> markers.
 Spoilers are collapsed by default. They are expanded only when the README
 marker explicitly says: <!-- PATCHES_START EXPANDED -->
 
+App icons are loaded from .github/assets/icons/<package>.<ext>. If an icon is
+missing, the script tries to download it from Google Play and cache it there.
+Set NO_ICONS=1 to skip network access.
+
 python3 generate_patches_readme.py <owner/repo> <branch> [patches-list.json] [README.md]
 """
 
 import json
+import os
 import re
 import sys
-import os
+import urllib.error
+import urllib.request
 from pathlib import Path
 
 
@@ -36,14 +42,10 @@ with open(json_path, encoding="utf-8") as f:
     data = json.load(f)
 
 
-def pkg_emoji(pkg):
-    """Return a standard package emoji regardless of the package name."""
-    return "📦"
-
 # Group patches by package; patches with no compatiblePackages are universal.
 # JSON structure: compatiblePackages is a list of objects with
 # { packageName, name, targets: [{ version, isExperimental, description }] }
-by_pkg = {}   # packageName -> { name, emoji, patches, targets }
+by_pkg = {}   # packageName -> { name, patches, targets }
 universal = {}
 
 for patch in data["patches"]:
@@ -59,7 +61,6 @@ for patch in data["patches"]:
         if pkg not in by_pkg:
             by_pkg[pkg] = {
                 "name":    name,
-                "emoji":   pkg_emoji(pkg),
                 "patches": {},
                 "targets": pkg_entry.get("targets", []),
             }
@@ -71,6 +72,73 @@ for patch in data["patches"]:
 def anchor(name):
     """Convert a patch name to a GitHub-compatible anchor slug."""
     return re.sub(r"-+", "-", re.sub(r"[^a-z0-9]+", "-", name.lower())).strip("-")
+
+
+ICON_DIR  = Path(".github/assets/icons")
+ICON_EXTS = ("png", "jpg", "jpeg", "webp", "svg")
+NO_ICONS  = os.environ.get("NO_ICONS") == "1"
+PLAY_URL  = "https://play.google.com/store/apps/details?id={}&hl=en&gl=US"
+
+
+def icon_file(pkg):
+    """Return the cached icon filename for a package, if one exists."""
+    for ext in ICON_EXTS:
+        name = f"{pkg}.{ext}"
+        if (ICON_DIR / name).is_file():
+            return name
+    return None
+
+
+def image_ext(blob):
+    if blob.startswith(b"\x89PNG\r\n\x1a\n"):
+        return "png"
+    if blob.startswith(b"\xff\xd8\xff"):
+        return "jpg"
+    if blob[:4] == b"RIFF" and blob[8:12] == b"WEBP":
+        return "webp"
+    return None
+
+
+def http_get(url):
+    request = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    try:
+        with urllib.request.urlopen(request, timeout=20) as response:
+            return response.read()
+    except (urllib.error.URLError, OSError, ValueError):
+        return None
+
+
+def play_icon(pkg):
+    """Fetch the app's icon from its Google Play listing."""
+    page = http_get(PLAY_URL.format(pkg))
+    if not page:
+        return None, None
+    match = re.search(
+        r'"image":"(https://play-lh\.googleusercontent\.com/[^"]+)"',
+        page.decode("utf-8", "replace"),
+    )
+    if not match:
+        return None, None
+    blob = http_get(f"{match.group(1)}=s96-cc")
+    return (blob, image_ext(blob)) if blob else (None, None)
+
+
+def ensure_icon(pkg):
+    """Use a cached icon or download one from Google Play."""
+    if icon_file(pkg) or NO_ICONS:
+        return
+    blob, ext = play_icon(pkg)
+    if not ext:
+        return
+    ICON_DIR.mkdir(parents=True, exist_ok=True)
+    (ICON_DIR / f"{pkg}.{ext}").write_bytes(blob)
+
+
+def icon_img(pkg):
+    name = icon_file(pkg) if pkg else None
+    if not name:
+        return "📦&nbsp;"
+    return f'<img src=".github/assets/icons/{name}" width="18" align="absmiddle" alt="">&nbsp;&nbsp;'
 
 
 def patches_table(patches):
@@ -124,16 +192,16 @@ def versions_table(targets):
     return "\n".join(rows)
 
 
-def spoiler(label, count, targets, tbl, expanded=False):
+def spoiler(label, count, targets, tbl, expanded=False, pkg=None):
     """Wrap a patches table in a <details> spoiler with a versions sub-table.
-    If expanded=True, the spoiler is open by default (for repos with few patches).
+    If expanded=True, the spoiler is open by default.
     """
     noun = "patch" if count == 1 else "patches"
     vtbl = versions_table(targets)
     versions_section = f"**🎯 Supported versions:**\n\n{vtbl}\n\n" if vtbl else ""
     tag = "<details open>" if expanded else "<details>"
     return f"""{tag}
-<summary>{label}&nbsp;&nbsp;•&nbsp;&nbsp;{count} {noun}</summary>
+<summary>{icon_img(pkg)}{label}&nbsp;&nbsp;•&nbsp;&nbsp;{count} {noun}</summary>
 <br>
 
 {versions_section}{tbl}
@@ -149,11 +217,23 @@ def build_content(expanded=False):
         f"{total} patches total"
     ]
 
+    if not NO_ICONS:
+        for pkg in by_pkg:
+            ensure_icon(pkg)
+
     # One spoiler per app, in the order they appear in the JSON
     for pkg, entry in by_pkg.items():
         patches = list(entry["patches"].values())
-        label   = f"{entry['emoji']} {entry['name']}"
-        lines.append(spoiler(label, len(patches), entry["targets"], patches_table(patches), expanded))
+        lines.append(
+            spoiler(
+                entry["name"],
+                len(patches),
+                entry["targets"],
+                patches_table(patches),
+                expanded,
+                pkg,
+            )
+        )
         lines.append("")
 
     # Universal patches (no specific app)
