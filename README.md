@@ -44,7 +44,7 @@ Custom Morphe patches by Xhehab.
 
 **🎯 Supported versions:**
 
-| 1.2.0 |
+| 1.8.0 |
 | :---: |
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
