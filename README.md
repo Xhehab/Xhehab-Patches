@@ -12,7 +12,7 @@ Custom Morphe patches by Xhehab.
 
 **🎯 Supported versions:**
 
-| 1.4.10 |
+| 1.5.0 |
 | :---: |
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |

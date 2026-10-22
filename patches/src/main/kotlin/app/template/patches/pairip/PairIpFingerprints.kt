@@ -4,6 +4,13 @@ import app.morphe.patcher.Fingerprint
 import app.morphe.patcher.fieldAccess
 import com.android.tools.smali.dexlib2.Opcode
 
+object PairIpCheckLicenseFingerprint : Fingerprint(
+    definingClass = "Lcom/pairip/licensecheck/LicenseClient;",
+    name = "checkLicense",
+    parameters = listOf("Landroid/content/Context;"),
+    returnType = "V"
+)
+
 object PairIpProcessLicenseResponseFingerprint : Fingerprint(
     custom = { method, classDef ->
         classDef.type == "Lcom/pairip/licensecheck/LicenseClient;" &&

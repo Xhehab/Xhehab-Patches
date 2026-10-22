@@ -32,6 +32,13 @@ val disablePairIpLicenseCheckPatch = bytecodePatch(
                 .warning("Could not find PairIP licensing check. No changes applied.")
         }
 
+        // PairIP 1.5.0 hooks checkLicense(Context) from com.pairip.application.Application
+        // attachBaseContext. A re-signed APK fails that check, which ends in the Play Store
+        // error dialog even though the service response is forced to licensed below.
+        // Entry points that call checkLicense are the Application and LicenseContentProvider,
+        // so short-circuiting this method disables the check for both.
+        PairIpCheckLicenseFingerprint.methodOrNull?.returnEarlyVoid()
+
         PairIpProcessLicenseResponseFingerprint.apply {
             method.addInstruction(0, "const/4 p1, 0x0")
 

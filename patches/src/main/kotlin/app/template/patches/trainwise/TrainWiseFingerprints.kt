@@ -9,5 +9,5 @@ val CustomerInfoMapFingerprint = Fingerprint(
     name = "map",
     parameters = listOf("Lcom/revenuecat/purchases/CustomerInfo;"),
     returnType = "Ljava/util/Map;",
-    accessFlags = listOf(AccessFlags.PRIVATE, AccessFlags.STATIC, AccessFlags.FINAL)
+    accessFlags = listOf(AccessFlags.PUBLIC, AccessFlags.STATIC, AccessFlags.FINAL)
 )

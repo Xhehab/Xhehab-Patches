@@ -11,7 +11,7 @@ object Constants {
         packageName = "com.trainwiseapp.app",
         apkFileType = ApkFileType.XAPK,
         appIconColor = 0x00C853,
-        targets = listOf(AppTarget(version = "1.4.10"))
+        targets = listOf(AppTarget(version = "1.5.0"))
     )
 
     // STNDRD — Workout & Fitness Plans
