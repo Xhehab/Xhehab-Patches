@@ -1,3 +1,9 @@
+## [3.3.4](https://github.com/Xhehab/Xhehab-Patches/compare/v3.3.3...v3.3.4) (2026-10-22)
+
+### 🚀 Updated App Support
+
+* Video Player All Format 2.9.2 ([18b62aa](https://github.com/Xhehab/Xhehab-Patches/commit/18b62aae17eea495958269fe803fcb2ef569bf8f))
+
 ## [3.3.3](https://github.com/Xhehab/Xhehab-Patches/compare/v3.3.2...v3.3.3) (2026-10-22)
 
 ### 🚀 Updated App Support

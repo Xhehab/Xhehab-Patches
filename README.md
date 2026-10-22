@@ -5,7 +5,7 @@ Custom Morphe patches by Xhehab.
 ## Patches
 
 <!-- PATCHES_START -->
-> **[v3.3.3](https://github.com/Xhehab/Xhehab-Patches/releases/tag/v3.3.3)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;18 patches total
+> **[v3.3.4](https://github.com/Xhehab/Xhehab-Patches/releases/tag/v3.3.4)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;18 patches total
 <details>
 <summary>📦 TrainWise App&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
 <br>
