@@ -5,9 +5,9 @@ import app.morphe.patcher.patch.AppTarget
 import app.morphe.patcher.patch.Compatibility
 
 object Constants {
-    // TrainWise — Workout & Fitness Coach
+    // TrainWise App
     val TRAINWISE_COMPATIBILITY = Compatibility(
-        name = "TrainWise - Workout & Fitness Coach",
+        name = "TrainWise App",
         packageName = "com.trainwiseapp.app",
         apkFileType = ApkFileType.XAPK,
         appIconColor = 0x00C853,

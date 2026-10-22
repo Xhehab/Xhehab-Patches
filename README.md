@@ -4,10 +4,10 @@ Custom Morphe patches by Xhehab.
 
 ## Patches
 
-<!-- PATCHES_START EXPANDED -->
-> **[v3.3.3](https://github.com/Xhehab/Xhehab-Patches/releases/tag/v3.3.3)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;17 patches total
-<details open>
-<summary>📦 TrainWise - Workout & Fitness Coach&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<!-- PATCHES_START -->
+> **[v3.3.3](https://github.com/Xhehab/Xhehab-Patches/releases/tag/v3.3.3)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;18 patches total
+<details>
+<summary>📦 TrainWise App&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
 <br>
 
 **🎯 Supported versions:**
@@ -22,7 +22,7 @@ Custom Morphe patches by Xhehab.
 
 </details>
 
-<details open>
+<details>
 <summary>📦 MH Physique&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
 <br>
 
@@ -38,7 +38,7 @@ Custom Morphe patches by Xhehab.
 
 </details>
 
-<details open>
+<details>
 <summary>📦 RP Hypertrophy&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
 <br>
 
@@ -54,7 +54,7 @@ Custom Morphe patches by Xhehab.
 
 </details>
 
-<details open>
+<details>
 <summary>📦 THENX&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
 <br>
 
@@ -70,7 +70,23 @@ Custom Morphe patches by Xhehab.
 
 </details>
 
-<details open>
+<details>
+<summary>📦 Video Player All Format&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 2.9.2 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Disable Rate Dialog](#disable-rate-dialog) | Disables the rate dialog counters so it never appears. |  |
+| [Unlock Video Player Premium](#unlock-video-player-premium) | Unlock all Paid features |  |
+
+</details>
+
+<details>
 <summary>📦 BASE Strength AI&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
 
@@ -85,7 +101,7 @@ Custom Morphe patches by Xhehab.
 
 </details>
 
-<details open>
+<details>
 <summary>📦 Boostcamp&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
 
@@ -100,7 +116,7 @@ Custom Morphe patches by Xhehab.
 
 </details>
 
-<details open>
+<details>
 <summary>📦 Built With Science&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
 
@@ -115,7 +131,7 @@ Custom Morphe patches by Xhehab.
 
 </details>
 
-<details open>
+<details>
 <summary>📦 FST-7&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
 
@@ -130,7 +146,7 @@ Custom Morphe patches by Xhehab.
 
 </details>
 
-<details open>
+<details>
 <summary>📦 Ganbaru Method&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
 
@@ -145,7 +161,7 @@ Custom Morphe patches by Xhehab.
 
 </details>
 
-<details open>
+<details>
 <summary>📦 JuggernautAI&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
 
@@ -160,7 +176,7 @@ Custom Morphe patches by Xhehab.
 
 </details>
 
-<details open>
+<details>
 <summary>📦 MyoAdapt - Build Muscle Fast&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
 
@@ -175,7 +191,7 @@ Custom Morphe patches by Xhehab.
 
 </details>
 
-<details open>
+<details>
 <summary>📦 STNDRD - Workout & Fitness Plans&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
 
@@ -187,21 +203,6 @@ Custom Morphe patches by Xhehab.
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
 | [Unlock STNDRD Premium](#unlock-stndrd-premium) | Unlock all Paid features |  |
-
-</details>
-
-<details open>
-<summary>📦 Video Player All Format&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
-<br>
-
-**🎯 Supported versions:**
-
-| 2.9.2 |
-| :---: |
-
-| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
-|----------|----------------|-----------|
-| [Unlock Video Player Premium](#unlock-video-player-premium) | Unlock all Paid features |  |
 
 </details>
 

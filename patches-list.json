@@ -10,7 +10,7 @@
       "compatiblePackages": [
         {
           "packageName": "com.trainwiseapp.app",
-          "name": "TrainWise - Workout & Fitness Coach",
+          "name": "TrainWise App",
           "description": null,
           "apkFileType": "XAPK",
           "appIconColor": "#00C853",
@@ -330,7 +330,7 @@
       "compatiblePackages": [
         {
           "packageName": "com.trainwiseapp.app",
-          "name": "TrainWise - Workout & Fitness Coach",
+          "name": "TrainWise App",
           "description": null,
           "apkFileType": "XAPK",
           "appIconColor": "#00C853",
