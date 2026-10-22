@@ -80,6 +80,32 @@
       "options": []
     },
     {
+      "name": "Disable Rate Dialog",
+      "description": "Disables the rate dialog counters so it never appears.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "video.player.videoplayer",
+          "name": "Video Player All Format",
+          "description": null,
+          "apkFileType": "APKM",
+          "appIconColor": "#18DC14",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "2.9.2",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
       "name": "Unlock BASE Strength Premium",
       "description": "Unlock all Paid features",
       "default": true,
