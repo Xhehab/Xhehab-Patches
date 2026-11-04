@@ -181,7 +181,7 @@ Custom Morphe patches by Xhehab.
 
 **🎯 Supported versions:**
 
-| 262 |
+| 267 |
 | :---: |
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |

@@ -47,7 +47,7 @@ object Constants {
         packageName = "com.bpmhealth.boostcamp",
         apkFileType = ApkFileType.XAPK,
         appIconColor = 0x2A2132,
-        targets = listOf(AppTarget(version = "262"))
+        targets = listOf(AppTarget(version = "267"))
     )
 
     // Built With Science
