@@ -1,3 +1,9 @@
+## [3.3.6](https://github.com/Xhehab/Xhehab-Patches/compare/v3.3.5...v3.3.6) (2026-11-04)
+
+### 🚀 Updated App Support
+
+* RP Hypertrophy v1.9.0 and STNDRD v4.1.63 ([903de94](https://github.com/Xhehab/Xhehab-Patches/commit/903de943512a077d7229df1be0404bd0a8cbcb12))
+
 ## [3.3.5](https://github.com/Xhehab/Xhehab-Patches/compare/v3.3.4...v3.3.5) (2026-11-04)
 
 ### 🚀 Updated App Support
