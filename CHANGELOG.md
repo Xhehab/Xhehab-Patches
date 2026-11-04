@@ -1,3 +1,9 @@
+## [3.3.5](https://github.com/Xhehab/Xhehab-Patches/compare/v3.3.4...v3.3.5) (2026-11-04)
+
+### 🚀 Updated App Support
+
+* Boostcamp v267 ([25f153c](https://github.com/Xhehab/Xhehab-Patches/commit/25f153c1868f6253afb3e5c9aba955e03129a2af))
+
 ## [3.3.4](https://github.com/Xhehab/Xhehab-Patches/compare/v3.3.3...v3.3.4) (2026-10-22)
 
 ### 🚀 Updated App Support
