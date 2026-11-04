@@ -1,3 +1,9 @@
+## [3.3.7](https://github.com/Xhehab/Xhehab-Patches/compare/v3.3.6...v3.3.7) (2026-11-04)
+
+### 🚀 Updated App Support
+
+* FST-7 v4.0.1 ([404acbf](https://github.com/Xhehab/Xhehab-Patches/commit/404acbfcb5fb535de8e16bfed681550a3bcdd172))
+
 ## [3.3.6](https://github.com/Xhehab/Xhehab-Patches/compare/v3.3.5...v3.3.6) (2026-11-04)
 
 ### 🚀 Updated App Support
