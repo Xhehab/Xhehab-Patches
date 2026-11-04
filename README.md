@@ -12,7 +12,7 @@ Custom Morphe patches by Xhehab.
 
 **🎯 Supported versions:**
 
-| 4.1.44 |
+| 4.1.63 |
 | :---: |
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
@@ -43,7 +43,7 @@ Custom Morphe patches by Xhehab.
 
 **🎯 Supported versions:**
 
-| 1.8.0 |
+| 1.9.0 |
 | :---: |
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
