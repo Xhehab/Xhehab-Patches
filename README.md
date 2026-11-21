@@ -43,7 +43,7 @@ Custom Morphe patches by Xhehab.
 
 **🎯 Supported versions:**
 
-| 1.9.0 |
+| 1.11.0 |
 | :---: |
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
